@@ -13,7 +13,8 @@ header {
     text-align: center;
     font-size: large;
     text-transform: uppercase;
-    border: solid 5px rgb(80, 80, 80);
+    border: 5px solid rgb(80, 80, 80);
+    background-color: white;
 }
 
 main {
@@ -22,4 +23,17 @@ main {
 
 footer {
     text-align: center;
+}
+
+.otazka {
+    color: white;
+    background-color: rgb(80, 80, 80);
+    padding: 1em;
+    font-size: 1.2em;
+    margin: 1em 0;
+}
+
+.odpoved {
+    border-left:  10px solid white;
+    padding-left: 20px;
 }
