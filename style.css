@@ -50,7 +50,7 @@ footer {
 }
 
 table, td, th {
-    border: 1px solid black;
+    border: 1px solid rgb(80, 80, 80);
     border-collapse: collapse;
 }
 
@@ -58,14 +58,25 @@ td, th {
     padding: 5px 50px;
 }
 
-th {
-    background-color: darkslategray;
-    color: white;
+.th-center {
+    text-align: center;
 }
 
 caption {
-    font-size: 1.2em;
-    background-color: darkviolet;
+    font-size: 17.5px;
+    background-color: rgb(80, 80, 80);
     color: white;
     padding: 2px
 }
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  filter: grayscale(100%)
+}
+
+.img-border {
+    border: solid rgb(80, 80, 80) 3px;
+}
+
