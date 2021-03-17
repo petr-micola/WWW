@@ -73,9 +73,30 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  filter: grayscale(100%)
 }
 
-.img-border {
-    border: solid rgb(80, 80, 80) 3px;
+.img-vpravo {
+    display: flex;
+    float: right;
+    margin: 5% 15% 0 10%;
+}
+
+.ul-bez-tecky {
+    list-style: none;
+}
+
+.zelena {
+    color: green;
+}
+
+.cervena {
+    color: red;
+}
+
+figcaption {
+    text-align: center;
+}
+
+.cookies {
+    padding: 2% 0;
 }
